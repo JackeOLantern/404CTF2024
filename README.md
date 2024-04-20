@@ -1,4 +1,4 @@
-# __404 CTF__ 2023 : En cours
+# __404 CTF__ 2024 : En cours
 
 ## __Résumé__
 Coorganisé par l'Institut Polytechnique via __Télécom SudParis__ et le ministère des armées via la __direction générale de la sécurité extérieure__, le __404 CTF__ est la plus grande compétition de cybersécurité de France. Après le succès de l'édition 2023 qui célébrait la littérature Française de la __DGSE__, cette 3ème édition mettra à l'honneur les grandes figures de la littérature française. Le __404 CT__ est de retour au calendrier : *20/04/2024 - 12/05/2024*. Pendant un mois, vous vous confronterez à des challenges conçus par le club de cybersécurité __HackademINT__ de __Télécom SudParis__. Le scénario et l'écrit sont décrits. https://ctf.404ctf.fr/prologue. La cérémonie de rencontre a lieu au salon __Vivatech__ à Paris : https://vivatechnology.com/
