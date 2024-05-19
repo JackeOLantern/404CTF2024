@@ -19,12 +19,14 @@ comportements idéaux et réalistes puis proposer une interface normalisée pour
 qui sert à visualiser les étapes de résolution et les éléments de solution est également utilisé sous formes de graphiques.
 
 ## Explications détaillées
+Les essais venant du cours sont en: chall1.py, chall2.py etc. Les solutions sont dans les Chall1_reel.py, chall2_reel, etc.
+Les évaluations de partage de clés et de l'interception par un tiers sont dans les fichiers: chall2_eve.py, chall2_ev2.py.
 Dans l'exercice final, après les essais en compléments, provenant des étapes successives du cours, qui ne servent donc pas 
 à la résolution directe du challenge mais à la compréhension de ce qui suit, le drapeau est construit à partir de 3 valeurs.
 A l'état finalisé ("finish-state") : il est demandé l'atteinte de l'objectif en faisant des rotations d'un angle déterminé.
 Il faut amener le qubit à la position de la sphère de Bloch. Un état final de qubit est obtenu en utilisant des "circuits".
 La sphère de Bloch est une grosse aide pour la résolution du chall. L'axe z est vers le haut (N) et (x,y) est dans le plan.
-C'est parti pour atteindre les trous états auparavant évoqués à passer.
+C'est parti pour atteindre les trois états évoqués avant à passer.
 
 * Step 1 : avec l'outil du "Beam splitter" (voir le cours suivant)
 * Step 2 : deux outils en chaînes 1) Beam splitter et 2) Déphaseur
