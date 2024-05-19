@@ -73,23 +73,23 @@ Algorithmique-quantique-main\challenges\Chall1_reel.py'
 
 L'analyseur doit renvoyer : 1/10 pour 0 et 9/10 pour 1
 # +---+------+------+
-# |   |  0   |  1   |
+# | -  #|  0  #|  1 #|
 # +---+------+------+
-# | 0 | 1/10 | 9/10 |
+# | 0 #| 1/10 #|9/10#|
 # +---+------+------+
 
 ## STEP 2
 
-# Résultat : |φ> = (0.87+0j) |0> + (0.43-0.25j) |1>
-# Solution : |φ> = (0.87+0j) |0> + (0.43-0.25j) |1>
+ Résultat : |φ> = (0.87+0j) |0> + (0.43-0.25j) |1>
+ Solution : |φ> = (0.87+0j) |0> + (0.43-0.25j) |1>
 
 ## STEP final
 
-# {'message': 'Statut : en pleine forme !'}
-# {'message': 'GG ! Voici le drapeau : 404CTF{uN_r4Il_PoUr_2_Tr4iNs_eU_N0n_dEUx_r4ils_PoUR_1tRa1n}'}
+ {'message': 'Statut : en pleine forme !'}
+ {'message': 'GG ! Voici le drapeau : 404CTF{uN_r4Il_PoUr_2_Tr4iNs_eU_N0n_dEUx_r4ils_PoUR_1tRa1n}'}
 PS D:\404ctf\404CTF-2024-Algorithmique-quantique-main\challenges>
 
-# Le flag : 404CTF{uN_r4Il_PoUr_2_Tr4iNs_eU_N0n_dEUx_r4ils_PoUR_1tRa1n}
+ Le flag : 404CTF{uN_r4Il_PoUr_2_Tr4iNs_eU_N0n_dEUx_r4ils_PoUR_1tRa1n}
 
 ![hadamard](./assets/hadamard.png "Hadamard")
 
