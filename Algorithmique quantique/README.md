@@ -72,10 +72,11 @@ Algorithmique-quantique-main\challenges\Chall1_reel.py'
 ## STEP 1  Beam splitter
 
 L'analyseur doit renvoyer : 1/10 pour 0 et 9/10 pour 1
-# +---+------+------+
-# | -  #|  0  #|  1 #|
-# +---+------+------+
-# | 0 #| 1/10 #|9/10#|
+
+# +----+------+-----+
+# | -  |  0   |  1  |
+# +----+------+-----+
+# | 0  | 1/10 |9/10 |
 # +---+------+------+
 
 ## STEP 2
