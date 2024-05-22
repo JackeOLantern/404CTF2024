@@ -40,11 +40,13 @@ Il s'agit de la fonction d'entraînement, Lorsque je tombe sur mes "2" patchés,
 En modifiant les poids, le flag est obtenu.
 
 ## 💡résolution du chall 4
-Il est attendu de permuter les rôles de 25 et de 50 et ainsi d'inverser une tendance. On attaque la dernière couche du modèle 
-et on modifie le poids en précision +-0,3. A chaque itération, on regarde si l'écart entre 25 et 50 s'est modifié.
-Malheureusement, les valeurs ne sont plus de l'ordre de 25,...50; Les valeurs ayant augmenté hors de la zone, on va changer 
-le poids pour les ramener aux positions initiales. Lorsque l'écart qui était de -25 arrive à +30, on vérifie la condition d'arrêt 
-du modèle. On modifie juste 1 en poids de la couche 2 et le biais dans la couche -1.
+Il est attendu de permuter les rôles de 25 et de 50 et ainsi d'inverser une tendance. Il y a un problème d'ordre et on modifie
+le poids en précision + ou -0,3 dans la dernière couche. A chaque itération, on regarde (en testant le jeu de test) si l'écart 
+entre 25 et 50 s'est modifié en faveur du 25 (val de 25 moins val de 50 augmente). On ne garde que si cela améliore l'écart...
+Lorsque l'écart qui était de -25 arrive à +30 (on partait de -25), on vérifie la condition d'arrêt  Malheureusement, les valeurs 
+ne sont plus dans la zone [25,...50] malgré l'écart à attendu de l'ordre de 30; ce qui est correct; Les valeurs ayant augmenté
+hors de la zone, on va changer le "Biais" (bias) pour les ramener dans l'intervalle initial attendu. On envoie alors la nouvelle 
+valeur du poids et du biais dans l'appel serveur pour le chall.
 
 ## résolution du STEP final
 Pour le chall 1 :
